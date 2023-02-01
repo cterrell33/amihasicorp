@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-wget https://packages.chef.io/files/stable/chef-server/12.19.31/el/7/chef-server-core-12.19.31-1.el7.x86_64.rpm
+curl -O https://packages.chef.io/files/stable/chef-server/12.19.31/el/7/chef-server-core-12.19.31-1.el7.x86_64.rpm
 
 sudo rpm -Uvh chef-server-core-12.19.31-1.el7.x86_64.rpm
 

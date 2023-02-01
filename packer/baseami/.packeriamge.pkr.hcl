@@ -1,12 +1,12 @@
 variable "access_key" {
    type = string
-   default = "AKIAUB3MR75KE4UOVCPJ"
+   default = "AKIAQTKQ65YELANXGBVQ"
    sensitive = true
 }
 
 variable "secret_key" {
   type = string
-  default = "a3wNwl2WI0lbCn550U+7C5xk5Zec4ntMUJ6DoMdE"
+  default = "X7pTA0h764Ma3NbfCH/nseUIVWKsDHOMCCqjpWWy"
   sensitive = true
 }
 
